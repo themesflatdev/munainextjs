@@ -1,0 +1,132 @@
+.typeanimation {
+  transition: width 0.58s ease-out !important;
+}
+a {
+  cursor: pointer !important;
+}
+.rorateLetterAnim {
+  display: inline-block;
+  animation: rorateLetter 4s linear 0.2s infinite;
+}
+.rorateLetterAnim.blankSpan {
+  opacity: 0;
+  width: 16px;
+}
+.rc-slider {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.rc-slider .rc-slider-handle {
+  border: solid 2px #6844ed;
+  opacity: 1 !important;
+  background-color: #fff !important;
+  width: 16px;
+  height: 16px;
+  margin-top: -7px;
+}
+
+.rc-slider .rc-slider-handle:hover {
+  border-color: #6844ed;
+}
+
+.rc-slider .rc-slider-handle-dragging {
+  border-color: #6844ed !important;
+  box-shadow: none !important;
+}
+
+.rc-slider .rc-slider-track,
+.rc-slider .rc-slider-tracks {
+  background-color: #6844ed;
+}
+#sort-by:hover {
+  z-index: 1000 !important;
+}
+#sort-by:hover ul {
+  display: block !important;
+}
+.fs-4 {
+  font-size: 16px;
+}
+.modal-video-close-btn {
+  padding: 0 !important;
+}
+@keyframes rorateLetter {
+  0% {
+    transform: rotateY(0deg);
+  }
+  55% {
+    transform: rotateY(0deg);
+  }
+  60% {
+    transform: rotateY(90deg);
+  }
+  65% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
+}
+
+.fadeTabContent.active {
+  /* opacity: 0; */
+  animation: fadeinTabContent 0.4s linear 0s 1;
+}
+
+@keyframes fadeinTabContent {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.shop-apply-btn {
+  color: #fff !important;
+}
+.shop-apply-btn:hover {
+  background-color: #6844ed !important;
+}
+@media (max-width: 1200px) and (min-width: 1000px) {
+  .image-size-control {
+    right: 200px !important;
+  }
+}
+@media (min-width: 576px) {
+  #footer.style-1 .list-3 {
+    padding-left: 75px !important;
+  }
+}
+@media (max-width: 1120px) {
+  .cta.cta-2 {
+    position: relative;
+    margin-bottom: 0;
+  }
+  .cta.cta-2 .themesflat-container {
+    position: absolute;
+    bottom: -150px;
+  }
+}
+@media (max-width: 1100px) and (min-width: 815px) {
+  .blog-widget-trailer {
+    height: 420px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.blog-widget-trailer img {
+  height: 100%;
+  object-fit: cover;
+}
+.blog-widget-trailer .content {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
